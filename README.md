@@ -16,7 +16,7 @@
 <td align="center" width="10%"><h1>⬅️</h1></td>
 <td align="center" width="25%">
 <audio controls src="https://github.com/enderkeykey/music_demo/raw/main/ref1.wav"></audio>
-<br><code>ref:happy</code>
+<br><code>ref1:happy</code>
 <br><code>emo_prompt:natural</code>
 </td>
 <td align="left" width="45%">
@@ -37,7 +37,7 @@
 <td align="center"><h1>⬅️</h1></td>
 <td align="center">
 <audio controls src="https://github.com/enderkeykey/music_demo/raw/main/ref2.wav"></audio>
-<br><code>ref:tuning_natural</code>
+<br><code>ref2:tuning_natural</code>
 <br><code>emo_prompt:(none)</code>
 </td>
 <td align="left">
