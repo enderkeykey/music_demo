@@ -1,5 +1,4 @@
 <table>
-  <!-- 表头（可选，不需要可以删掉） -->
   <thead>
     <tr>
       <th align="center">生成结果 (Output)</th>
@@ -9,33 +8,28 @@
     </tr>
   </thead>
   
-  <!-- 第一行: audio1 -->
   <tbody>
+    <!-- 第一行: audio1.mp3 -->
     <tr>
-      <!-- 第一列：生成的音频 -->
       <td align="center" width="20%">
-        <!-- 如果您想放截图里的图标，用 img；如果想直接播放，用 audio -->
-        <audio controls src="path/to/audio1.wav"></audio>
+        <!-- 这里直接写文件名即可，因为它们和 README 在一起 -->
+        <audio controls src="./audio1.mp3"></audio>
         <br>
         <b>audio1</b>
       </td>
       
-      <!-- 第二列：箭头 -->
       <td align="center" width="10%">
-        <!-- 这是一个巨大的箭头字符，也可以换成图片 -->
         <h1>⬅️</h1> 
       </td>
       
-      <!-- 第三列：参考音频和参数 -->
       <td align="center" width="25%">
-        <audio controls src="path/to/ref1.wav"></audio>
+        <audio controls src="./ref1.wav"></audio>
         <br>
         <code>ref:happy</code>
         <br>
         <code>emo_prompt:natural</code>
       </td>
       
-      <!-- 第四列：歌词 -->
       <td align="left" width="45%">
         <pre>
 [00:00.00]Now how bout you
@@ -47,10 +41,10 @@
       </td>
     </tr>
 
-    <!-- 第二行: audio2 (tuning) -->
+    <!-- 第二行: audio2.wav -->
     <tr>
       <td align="center">
-        <audio controls src="path/to/audio2.wav"></audio>
+        <audio controls src="./audio2.wav"></audio>
         <br>
         <b>audio2<br>(tuning)</b>
       </td>
@@ -60,7 +54,7 @@
       </td>
       
       <td align="center">
-        <audio controls src="path/to/ref2.wav"></audio>
+        <audio controls src="./ref2.wav"></audio>
         <br>
         <code>ref:tuning_natural</code>
         <br>
